@@ -8,7 +8,7 @@ import pandas as pd
 # Importing the datasets
 
 datasets = pd.read_csv('Social_Network_Ads.csv')
-X = datasets.iloc[:, [2,3]].values
+X = datasets.iloc[:, [2,3]].values 
 Y = datasets.iloc[:, 4].values
 
 # Splitting the dataset into the Training set and Test set
